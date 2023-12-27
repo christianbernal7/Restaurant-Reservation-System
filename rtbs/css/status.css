@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{  padding-top: 31px;}
+h1.header-w3ls {
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #088178;;
+    letter-spacing: 11px;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.42);
+}
+
+body {
+    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(../images/1.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+       
+      
+}
+
+.card {
+    color: black; 
+  }
+  
+  .card-header {
+    background-color: rgba(255, 255, 255, 0.1); 
+  }
+  
+  .card-title {
+    color: black; 
+  }
+  
+  .card-body {
+    background-color: rgba(255, 255, 255, 0.1); 
+  }
+  
+  .table th,
+  .table td {
+    color: black; 
+  }
+  
+  .table thead th {
+    background-color: rgba(255, 255, 255, 0.2); 
+  }
+  
+
+
+
+
+
+
+/*scroll bar*/
+::-webkit-scrollbar{
+    width: 10px;
+    }
+         
+::-webkit-scrollbar-thumb{
+    border-radius: 25px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#363535), to(#9c9999));
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25), inset -2px -2px -2px rgba(0, 0, 0, 0.25);
+    }
+         
+::-webkit-scrollbar-track{
+    background: radial-gradient(circle, #111111 0%, #2b2828 100%);
+    }
+
+
+    
