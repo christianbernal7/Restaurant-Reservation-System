@@ -53,6 +53,7 @@ include('admin/includes/config.php');
                   <tr>
                     <th>#</th>
                     <th>Bookings No</th>
+                    <th>Booking Status</th>
                     <th>Name</th>
                     <th>Email Id</th>
                     <th>Mobile No</th>
@@ -78,6 +79,7 @@ include('admin/includes/config.php');
                               echo '<tr>';
                               echo '<td>' . $cnt . '</td>';
                               echo '<td>' . $row['bookingNo'] . '</td>';
+                              echo '<td>' . $row['boookingStatus'] . '</td>';
                               echo '<td>' . $row['fullName'] . '</td>';
                               echo '<td>' . $row['emailId'] . '</td>';
                               echo '<td>' . $row['phoneNumber'] . '</td>';
@@ -101,6 +103,7 @@ include('admin/includes/config.php');
    <tr>
               <th>#</th>
                     <th>Bookings No</th>
+                    <th>Booking Status</th>
                     <th>Name</th>
                     <th>Email Id</th>
                     <th>Mobile No</th>
